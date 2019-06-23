@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import { Test } from "./../partials/test";
-
 export function Signin() {
+  const goToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
+  useEffect(() => {
+    goToTop();
+  }, []);
   return (
     <div className="auth__container">
+      <div className="auth__container-design-bottom">
+        <img src={require("./../../assets/img/signup.png")} alt="logo" />
+      </div>
+      <div className="auth__container-design-left">
+        <img src={require("./../../assets/img/tree.png")} alt="logo" />
+      </div>
+      <div className="auth__container-design-top">
+        <img src={require("./../../assets/img/plant-tail.png")} alt="logo" />
+      </div>
       <div className="auth__container--box main__container">
         <div className="auth__container--box-header">
           <div className="auth__container--box-header-logo">
@@ -40,7 +54,6 @@ export function Signin() {
           © Copyright 2019 - Trove Technologies Limited | All Rights Reserved
         </div>
       </div>
-      <Test page={"signup"} />
     </div>
   );
 }

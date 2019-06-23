@@ -18,13 +18,8 @@ export function Test(props) {
             <Link to="/pricing">Pricing</Link>
           )}
         </li>
-        <li>
-          {props.page === "signin" ? (
-            "Signin"
-          ) : (
-            <Link to="/signin">Signin</Link>
-          )}
-        </li>
+      </ul>
+      <ul>
         <li>
           {props.page === "signup" ? (
             "Signup"

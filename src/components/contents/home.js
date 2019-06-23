@@ -27,7 +27,14 @@ export function Home(props) {
       </div>
       <div className="home__content--invest main__container">
         <div className="home__content--invest-top">
-          <div>
+          <div className="home__content--invest-design-top-left">
+            <img src={require("./../../assets/img/phone-left.png")} alt="" />
+          </div>
+          <div className="home__content--invest-design-top-right">
+            <img src={require("./../../assets/img/phone-right.png")} alt="" />
+          </div>
+
+          <div className="home__content--invest-top-content">
             <div>
               <div className="home__content--invest-top-left">
                 <img src={require("./../../assets/img/mobile.png")} alt="" />
@@ -76,6 +83,12 @@ export function Home(props) {
         </div>
       </div>
       <div className="home__content--why main__container">
+        <div className="home__content--why-design-left">
+          <img src={require("./../../assets/img/back-tree.png")} alt="" />
+        </div>
+        <div className="home__content--why-design-right">
+          <img src={require("./../../assets/img/plant.png")} alt="" />
+        </div>
         <h3>Why TROVE</h3>
         <span>Embrace Micro Investing</span>
         <p>
@@ -83,7 +96,7 @@ export function Home(props) {
           spare change from your pockets and funnel it directly into an
           investment portfolio almost without you noticing.
         </p>
-        <div>
+        <div className="home__content--why-box">
           <div>
             <div>
               <img src={require("./../../assets/img/price-1.png")} alt="" />
@@ -117,6 +130,9 @@ export function Home(props) {
         </div>
       </div>
       <div className="home__content--steps main__container">
+        <div className="home__content--steps-design_bottom">
+          <img src={require("./../../assets/img/plant-pot.png")} alt="" />
+        </div>
         <div>
           <div className="home__content--steps-left">
             <span>HOW IT WORKS</span>
@@ -169,6 +185,18 @@ export function Home(props) {
           </div>
           <div className="home__content--steps-right">
             <div>
+              <div className="home__content--steps-right-design-left">
+                <img
+                  src={require("./../../assets/img/phone-left.png")}
+                  alt=""
+                />
+              </div>
+              <div className="home__content--steps-right-design-right">
+                <img
+                  src={require("./../../assets/img/phone-right.png")}
+                  alt=""
+                />
+              </div>
               <img src={require("./../../assets/img/mobile.png")} alt="" />
             </div>
           </div>
@@ -225,6 +253,12 @@ export function Home(props) {
         </div>
       </div>
       <div className="home__content--clients main__container">
+        <div className="pricing__bg--btm-right">
+          <img
+            src={require("./../../assets/img/single-tree.png")}
+            alt="stock"
+          />
+        </div>
         <div>
           <p>You're In Safe Hands.</p>
           <span>We work with renowned and trusted brands.</span>

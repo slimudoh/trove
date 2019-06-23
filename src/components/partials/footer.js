@@ -10,8 +10,6 @@ export function Footer(props) {
     goToTop();
   }, []);
 
-  console.log(props.page);
-
   return (
     <div className="footer">
       <div className="footer__main main__container">

@@ -11,6 +11,18 @@ export function Terms() {
       <Header page={"terms"} />
       <div className="terms">
         <div className="terms__bg--content main__container">
+          <div className="terms__bg--content-middle-left">
+            <img src={require("./../../assets/img/tree.png")} alt="" />
+          </div>
+          <div className="terms__bg--content-middle-right">
+            <img src={require("./../../assets/img/plant.png")} alt="" />
+          </div>
+          <div className="pricing__bg--btm-right">
+            <img
+              src={require("./../../assets/img/single-tree.png")}
+              alt="stock"
+            />
+          </div>
           <div className="terms__bg--content-left">
             Privacy <br />
             Policy

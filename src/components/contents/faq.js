@@ -11,6 +11,22 @@ export function Faq() {
       <Header page={"faq"} />
       <div className="faq">
         <div className="faq__bg--content main__container">
+          <div className="pricing__bg--btm-right">
+            <img
+              src={require("./../../assets/img/single-tree.png")}
+              alt="stock"
+            />
+          </div>
+          <div className="terms__bg--content-middle-right">
+            <img src={require("./../../assets/img/plant.png")} alt="" />
+          </div>
+          <div className="faq__bg--content-top-left">
+            <img src={require("./../../assets/img/person.png")} alt="" />
+          </div>
+          <div className="faq__bg--content-bottom-left">
+            <img src={require("./../../assets/img/tree.png")} alt="" />
+          </div>
+
           <div className="faq__bg--content-header">
             <span>HERE ARE SOME</span>
             <p>Frequently Asked Questions</p>

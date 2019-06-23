@@ -8,33 +8,36 @@ import { Download } from "./../partials/download";
 export function About() {
   return (
     <div>
-      <Header page={"about"} />
+      {/* <Header page={"about"} /> */}
       <div className="about">
         <div className="about__bg--content ">
-          <div className="about__bg--header main__container">
-            <div className="about__bg--header-left">
-              <span>Investment gamified</span>
-              <p>
-                Forget high account opening fees. Start investing in US, Chinese
-                & Nigerian Stocks, Government Bonds, US ETF’s and more from as
-                little as ₦1000
-              </p>
-              <div>
-                <div className="about__bg--header-left-play">
-                  <img
-                    src={require("./../../assets/img/dark-play.png")}
-                    alt=""
-                  />
-                </div>
-                <div className="about__bg--header-left-app">
-                  <img
-                    src={require("./../../assets/img/dark-app.png")}
-                    alt=""
-                  />
+          <div className="about__bg--header">
+            <Header page={"about"} />
+            <div className="main__container" style={{ paddingTop: "100px" }}>
+              <div className="about__bg--header-left">
+                <span>Investment gamified</span>
+                <p>
+                  Forget high account opening fees. Start investing in US,
+                  Chinese & Nigerian Stocks, Government Bonds, US ETF’s and more
+                  from as little as ₦1000
+                </p>
+                <div>
+                  <div className="about__bg--header-left-play">
+                    <img
+                      src={require("./../../assets/img/dark-play.png")}
+                      alt=""
+                    />
+                  </div>
+                  <div className="about__bg--header-left-app">
+                    <img
+                      src={require("./../../assets/img/dark-app.png")}
+                      alt=""
+                    />
+                  </div>
                 </div>
               </div>
+              <div className="about__bg--header-right" />
             </div>
-            <div className="about__bg--header-right" />
           </div>
           <div className="about__bg--photos main__container">
             <p>We come together</p>

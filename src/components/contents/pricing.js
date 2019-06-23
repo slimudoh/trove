@@ -54,6 +54,18 @@ export function Pricing() {
       <Header page={"pricing"} />
       <div className="pricing">
         <div className="pricing__bg--content main__container">
+          <div className="pricing__bg--top-right">
+            <img src={require("./../../assets/img/plant.png")} alt="stock" />
+          </div>
+          <div className="pricing__bg--btm-right">
+            <img
+              src={require("./../../assets/img/single-tree.png")}
+              alt="stock"
+            />
+          </div>
+          <div className="pricing__bg--middle-left">
+            <img src={require("./../../assets/img/tree.png")} alt="stock" />
+          </div>
           <div className="pricing__bg--content-header">
             <span>As easy as 1, 2, 3</span>
             <p>Inclusive Pricing</p>
@@ -106,7 +118,112 @@ export function Pricing() {
               Managed Portfolio
             </div>
           </div>
+
+          <div className="pricing__bg--content-nav-mobile">
+            <div
+              onClick={getStock}
+              style={
+                stock ? { backgroundColor: "#2dd882", color: "#ffffff" } : null
+              }
+            >
+              {stock ? (
+                <img
+                  src={require("./../../assets/img/white-stock.png")}
+                  alt="stock"
+                />
+              ) : (
+                <img
+                  src={require("./../../assets/img/green-stock.png")}
+                  alt="stock"
+                />
+              )}
+            </div>
+            <div
+              onClick={getBond}
+              style={
+                bond ? { backgroundColor: "#2dd882", color: "#ffffff" } : null
+              }
+            >
+              {bond ? (
+                <img
+                  src={require("./../../assets/img/white-bond.png")}
+                  alt="stock"
+                />
+              ) : (
+                <img
+                  src={require("./../../assets/img/green-bond.png")}
+                  alt="stock"
+                />
+              )}
+            </div>
+            <div
+              onClick={getWithdrawal}
+              style={
+                withdrawal
+                  ? { backgroundColor: "#2dd882", color: "#ffffff" }
+                  : null
+              }
+            >
+              {withdrawal ? (
+                <img
+                  src={require("./../../assets/img/white-with.png")}
+                  alt="stock"
+                />
+              ) : (
+                <img
+                  src={require("./../../assets/img/green-with.png")}
+                  alt="stock"
+                />
+              )}
+            </div>
+            <div
+              onClick={getDeposit}
+              style={
+                deposits
+                  ? { backgroundColor: "#2dd882", color: "#ffffff" }
+                  : null
+              }
+            >
+              {deposits ? (
+                <img
+                  src={require("./../../assets/img/white-deposit.png")}
+                  alt="stock"
+                />
+              ) : (
+                <img
+                  src={require("./../../assets/img/green-deposit.png")}
+                  alt="stock"
+                />
+              )}
+            </div>
+            <div
+              onClick={getPortfolio}
+              style={
+                portfolio
+                  ? { backgroundColor: "#2dd882", color: "#ffffff" }
+                  : null
+              }
+            >
+              {portfolio ? (
+                <img
+                  src={require("./../../assets/img/white-port.png")}
+                  alt="stock"
+                />
+              ) : (
+                <img
+                  src={require("./../../assets/img/green-port.png")}
+                  alt="stock"
+                />
+              )}
+            </div>
+          </div>
           <div className="pricing__bg--content-price">
+            <div className="pricing__bg--content-price-top-left">
+              <img src={require("./../../assets/img/group-2.png")} alt="" />
+            </div>
+            <div className="pricing__bg--content-price-top-right">
+              <img src={require("./../../assets/img/group-1.png")} alt="" />
+            </div>
             <div className="pricing__bg--content-price-child">
               <div>
                 <span>Starter</span>

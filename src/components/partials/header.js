@@ -10,8 +10,6 @@ export function Header(props) {
     } else {
       setMobile(true);
     }
-
-    console.log(mobile);
   };
 
   return (
@@ -59,13 +57,216 @@ export function Header(props) {
           <div />
         </div>
       </div>
-      <div className="header__nav--mobile-menu-cover" />
-      <div className="header__nav--mobile-menu">
-        <div className="header__nav--mobile-menu-text">Home</div>
-        <div className="header__nav--mobile-menu-text">Why Trove</div>
-        <div className="header__nav--mobile-menu-text">FAQs</div>
-        <div className="header__nav--mobile-menu-botton">d</div>
-      </div>
+
+      {mobile ? (
+        <div className="header__nav--mobile-menu">
+          <div className="mobile__logo">
+            <img
+              src={require("./../../assets/img/white-logo.png")}
+              alt="logo"
+            />
+          </div>
+          <div className="header__nav--mobile-menu-text">
+            {props.page === "home" ? (
+              <>
+                <div className="header__nav--mobile-menu-text-icon">
+                  <img
+                    src={require("./../../assets/img/home.png")}
+                    alt="home"
+                  />
+                </div>
+                <div className="header__nav--mobile-menu-text-item">Home</div>
+              </>
+            ) : (
+              <Link to="/">
+                <div className="header__nav--mobile-menu-text-icon">
+                  <img
+                    src={require("./../../assets/img/home.png")}
+                    alt="home"
+                  />
+                </div>
+                <div className="header__nav--mobile-menu-text-item">Home</div>
+              </Link>
+            )}
+          </div>
+
+          <div className="header__nav--mobile-menu-text">
+            {props.page === "about" ? (
+              <>
+                <div className="header__nav--mobile-menu-text-icon">
+                  <img
+                    src={require("./../../assets/img/about.png")}
+                    alt="Why Trove"
+                  />
+                </div>
+                <div className="header__nav--mobile-menu-text-item">
+                  Why Trove
+                </div>
+              </>
+            ) : (
+              <Link to="/about">
+                <div className="header__nav--mobile-menu-text-icon">
+                  <img
+                    src={require("./../../assets/img/about.png")}
+                    alt="Why Trove"
+                  />
+                </div>
+                <div className="header__nav--mobile-menu-text-item">
+                  Why Trove
+                </div>
+              </Link>
+            )}
+          </div>
+
+          <div className="header__nav--mobile-menu-text">
+            {props.page === "faq" ? (
+              <>
+                <div className="header__nav--mobile-menu-text-icon">
+                  <img src={require("./../../assets/img/faq.png")} alt="FAQs" />
+                </div>
+                <div className="header__nav--mobile-menu-text-item">FAQs</div>
+              </>
+            ) : (
+              <Link to="/faq">
+                <div className="header__nav--mobile-menu-text-icon">
+                  <img src={require("./../../assets/img/faq.png")} alt="FAQs" />
+                </div>
+                <div className="header__nav--mobile-menu-text-item">FAQs</div>
+              </Link>
+            )}
+          </div>
+
+          <div className="header__nav--mobile-menu-text">
+            {props.page === "signup" ? (
+              <>
+                <div className="header__nav--mobile-menu-text-icon">
+                  <img
+                    src={require("./../../assets/img/reg.png")}
+                    alt="signup"
+                  />
+                </div>
+                <div className="header__nav--mobile-menu-text-item">Signup</div>
+              </>
+            ) : (
+              <Link to="/signup">
+                <div className="header__nav--mobile-menu-text-icon">
+                  <img
+                    src={require("./../../assets/img/reg.png")}
+                    alt="signup"
+                  />
+                </div>
+                <div className="header__nav--mobile-menu-text-item">Signup</div>
+              </Link>
+            )}
+          </div>
+
+          <div className="header__nav--mobile-menu-text">
+            <div className="header__nav--mobile-menu-text-icon">
+              <img
+                src={require("./../../assets/img/dloads.png")}
+                alt="download"
+              />
+            </div>
+            <div className="header__nav--mobile-menu-text-item">Downloads</div>
+          </div>
+        </div>
+      ) : null}
+      {/* <div className="header__nav--mobile-menu">
+        <div className="mobile__logo">
+          <img src={require("./../../assets/img/white-logo.png")} alt="logo" />
+        </div>
+        <div className="header__nav--mobile-menu-text">
+          {props.page === "home" ? (
+            <>
+              <div className="header__nav--mobile-menu-text-icon">
+                <img src={require("./../../assets/img/home.png")} alt="home" />
+              </div>
+              <div className="header__nav--mobile-menu-text-item">Home</div>
+            </>
+          ) : (
+            <Link to="/">
+              <div className="header__nav--mobile-menu-text-icon">
+                <img src={require("./../../assets/img/home.png")} alt="home" />
+              </div>
+              <div className="header__nav--mobile-menu-text-item">Home</div>
+            </Link>
+          )}
+        </div>
+
+        <div className="header__nav--mobile-menu-text">
+          {props.page === "about" ? (
+            <>
+              <div className="header__nav--mobile-menu-text-icon">
+                <img
+                  src={require("./../../assets/img/about.png")}
+                  alt="Why Trove"
+                />
+              </div>
+              <div className="header__nav--mobile-menu-text-item">
+                Why Trove
+              </div>
+            </>
+          ) : (
+            <Link to="/about">
+              <div className="header__nav--mobile-menu-text-icon">
+                <img
+                  src={require("./../../assets/img/about.png")}
+                  alt="Why Trove"
+                />
+              </div>
+              <div className="header__nav--mobile-menu-text-item">
+                Why Trove
+              </div>
+            </Link>
+          )}
+        </div>
+
+        <div className="header__nav--mobile-menu-text">
+          {props.page === "faq" ? (
+            <>
+              <div className="header__nav--mobile-menu-text-icon">
+                <img src={require("./../../assets/img/faq.png")} alt="FAQs" />
+              </div>
+              <div className="header__nav--mobile-menu-text-item">FAQs</div>
+            </>
+          ) : (
+            <Link to="/faq">
+              <div className="header__nav--mobile-menu-text-icon">
+                <img src={require("./../../assets/img/faq.png")} alt="FAQs" />
+              </div>
+              <div className="header__nav--mobile-menu-text-item">FAQs</div>
+            </Link>
+          )}
+        </div>
+
+        <div className="header__nav--mobile-menu-text">
+          {props.page === "signup" ? (
+            <>
+              <div className="header__nav--mobile-menu-text-icon">
+                <img src={require("./../../assets/img/reg.png")} alt="signup" />
+              </div>
+              <div className="header__nav--mobile-menu-text-item">Signup</div>
+            </>
+          ) : (
+            <Link to="/signup">
+              <div className="header__nav--mobile-menu-text-icon">
+                <img src={require("./../../assets/img/reg.png")} alt="signup" />
+              </div>
+              <div className="header__nav--mobile-menu-text-item">Signup</div>
+            </Link>
+          )}
+        </div>
+
+        <div className="header__nav--mobile-menu-text">
+          <div className="header__nav--mobile-menu-text-icon">
+            <img
+              src={require("./../../assets/img/dloads.png")}
+              alt="download"
+            />
+          </div>
+          <div className="header__nav--mobile-menu-text-item">Downloads</div>
+        </div>
+      </div> */}
     </header>
   );
 }
