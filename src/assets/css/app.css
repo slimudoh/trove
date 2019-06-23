@@ -582,7 +582,7 @@ body {
   .auth__container-design-top {
     display: none;
   }
-  
+
   .auth__container-design-left {
     display: none;
   }
@@ -1743,6 +1743,12 @@ body {
   background-size: cover;
 }
 
+@media only screen and (max-width: 700px) {
+  .about__bg--header {
+    background-image: none;
+  }
+}
+
 .about__bg--header-left {
   width: 50%;
   float: left;
@@ -2465,6 +2471,16 @@ body {
   top: 0;
   right: 0;
   width: 69px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home__content--why-design-left {
+    display: none;
+  }
+
+  .home__content--why-design-right {
+    display: none;
+  }
 }
 
 .home__content--why > h3 {
