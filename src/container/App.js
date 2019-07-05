@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./../assets/css/reset.css";
 import "./../assets/css/app.css";
@@ -7,7 +7,6 @@ import "./../assets/css/app.css";
 import { Home } from "./../components/contents/home";
 import { About } from "./../components/contents/about";
 import { Pricing } from "./../components/contents/pricing";
-import { Signin } from "./../components/contents/signin";
 import { Signup } from "./../components/contents/signup";
 import { Terms } from "./../components/contents/terms";
 import { Faq } from "./../components/contents/faq";
@@ -21,7 +20,6 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/pricing" component={Pricing} />
-        <Route path="/signin" component={Signin} />
         <Route path="/signup" component={Signup} />
         <Route path="/terms" component={Terms} />
         <Route path="/faq" component={Faq} />
