@@ -82,7 +82,7 @@ export function Signup() {
                   </div>
 
                   <div className="auth__container--box-select-right">
-                    <input type="text" placeholder="Date of Birth" />
+                    <input type="text" placeholder="Date of birth" />
                     <div>
                       <img
                         style={{ width: "16px" }}
