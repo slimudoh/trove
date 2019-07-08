@@ -9,7 +9,7 @@ export function Home(props) {
   return (
     <div>
       <Header page={"home"} />
-      <div className="home__content--header main__container">
+      <div className="home__content--header">
         <span>Investing simplified</span>
         <p>
           Forget high account opening fees. Start investing in US, Chinese &
@@ -25,7 +25,7 @@ export function Home(props) {
           </div>
         </div>
       </div>
-      <div className="home__content--invest main__container">
+      <div className="home__content--invest">
         <div className="home__content--invest-top">
           <div className="home__content--invest-design-top-left">
             <img src={require("./../../assets/img/phone-left.png")} alt="" />
@@ -82,7 +82,7 @@ export function Home(props) {
           </div>
         </div>
       </div>
-      <div className="home__content--why main__container">
+      <div className="home__content--why">
         <div className="home__content--why-design-left">
           <img src={require("./../../assets/img/back-tree.png")} alt="" />
         </div>
@@ -129,7 +129,7 @@ export function Home(props) {
           </div>
         </div>
       </div>
-      <div className="home__content--steps main__container">
+      <div className="home__content--steps">
         <div className="home__content--steps-design_bottom">
           <img src={require("./../../assets/img/plant-pot.png")} alt="" />
         </div>
@@ -202,7 +202,7 @@ export function Home(props) {
           </div>
         </div>
       </div>
-      <div className="home__content--app main__container">
+      <div className="home__content--app">
         <div className="home__content--app-left">
           <div>
             <img src={require("./../../assets/img/mobile.png")} alt="" />
@@ -225,7 +225,7 @@ export function Home(props) {
           </div>
         </div>
       </div>
-      <div className="home__content--safety main__container">
+      <div className="home__content--safety">
         <div>
           <div className="home__content--safety-left">
             <span>SAFETY FIRST</span>
@@ -252,7 +252,7 @@ export function Home(props) {
           </div>
         </div>
       </div>
-      <div className="home__content--clients main__container">
+      <div className="home__content--clients">
         <div className="pricing__bg--btm-right">
           <img
             src={require("./../../assets/img/single-tree.png")}

@@ -10,7 +10,7 @@ export function Terms() {
     <div>
       <Header page={"terms"} />
       <div className="terms">
-        <div className="terms__bg--content main__container">
+        <div className="terms__bg--content">
           <div className="terms__bg--content-middle-left">
             <img src={require("./../../assets/img/tree.png")} alt="" />
           </div>

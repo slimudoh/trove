@@ -53,7 +53,7 @@ export function Pricing() {
     <div>
       <Header page={"pricing"} />
       <div className="pricing">
-        <div className="pricing__bg--content main__container">
+        <div className="pricing__bg--content">
           <div className="pricing__bg--top-right">
             <img src={require("./../../assets/img/plant.png")} alt="stock" />
           </div>

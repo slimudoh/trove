@@ -10,7 +10,7 @@ export function Contact() {
     <div>
       <Header page={"contact"} />
       <div className="contact">
-        <div className="contact__bg--content main__container">
+        <div className="contact__bg--content">
           <div className="pricing__bg--btm-right">
             <img
               src={require("./../../assets/img/single-tree.png")}

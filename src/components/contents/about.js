@@ -13,7 +13,7 @@ export function About() {
         <div className="about__bg--content ">
           <div className="about__bg--header">
             <Header page={"about"} />
-            <div className="main__container" style={{ paddingTop: "100px" }}>
+            <div style={{ paddingTop: "100px" }}>
               <div className="about__bg--header-left">
                 <span>Investment gamified</span>
                 <p>
@@ -39,7 +39,7 @@ export function About() {
               <div className="about__bg--header-right" />
             </div>
           </div>
-          <div className="about__bg--photos main__container">
+          <div className="about__bg--photos">
             <p>We come together</p>
             <span>
               from all walks of life, led by the belief that anyone can grow
@@ -127,7 +127,7 @@ export function About() {
               </div>
             </div>
           </div>
-          <div className="about__bg--community main__container">
+          <div className="about__bg--community">
             <div>
               <div className="about__bg--community-gallery">
                 <img

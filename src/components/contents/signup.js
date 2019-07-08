@@ -21,7 +21,7 @@ export function Signup() {
       <div className="auth__container-design-top">
         <img src={require("./../../assets/img/plant-tail.png")} alt="logo" />
       </div>
-      <div className="auth__container--box main__container">
+      <div className="auth__container--box">
         <div>
           <div className="auth__container--box-header">
             <div className="auth__container--box-header-logo">

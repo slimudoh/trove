@@ -1,13 +1,4 @@
 :root {
-  --main: #ffffff;
-  --main-container-left-xl: 150px;
-  --main-container-right-xl: 150px;
-  --main-container-left-l: 70px;
-  --main-container-right-l: 70px;
-  --main-container-left-m: 20px;
-  --main-container-right-m: 20px;
-  --main-container-left-s: 10px;
-  --main-container-right-s: 10px;
   --compact-medium: "SF Compact Display medium";
   --compact-thin: "SF Compact Display thin";
   --tiempos-medium: "Tiempos Headline Medium";
@@ -139,57 +130,18 @@ body {
   font-family: var(--compact-thin);
 }
 
-.main__container {
-  padding-left: var(--main-container-left-xl);
-  padding-right: var(--main-container-right-xl);
-}
-
-@media only screen and (max-width: 1200px) {
-  .main__container {
-    padding-left: var(--main-container-left-l);
-    padding-right: var(--main-container-right-l);
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .main__container {
-    padding-left: var(--main-container-left-m);
-    padding-right: var(--main-container-right-m);
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .main__container {
-    padding-left: var(--main-container-left-s);
-    padding-right: var(--main-container-right-s);
-  }
-}
-
 /* ********************************************************** header section */
 
 .header {
   overflow: hidden;
   padding-top: 55px;
   padding-bottom: 52px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 15.677vw;
+  padding-right: 9.948vw;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 400px) {
   .header {
-    overflow: hidden;
-    padding-top: 55px;
-    padding-bottom: 52px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .header {
-    overflow: hidden;
-    padding-top: 55px;
-    padding-bottom: 52px;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -215,12 +167,8 @@ body {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1050px) {
   .header__nav {
-    max-width: 600px;
-    float: right;
-    overflow: hidden;
-    padding-top: 10px;
     display: none;
   }
 
@@ -250,7 +198,7 @@ body {
 
 .header__nav--menu {
   float: left;
-  width: 50%;
+  width: 250px;
   overflow: hidden;
   padding-top: 18px;
 }
@@ -267,14 +215,13 @@ body {
 
 .header__nav--bottom {
   float: left;
-  width: 50%;
+  width: 350px;
   overflow: hidden;
 }
 
 .header__nav--bottom-left {
   float: left;
-  width: 40%;
-  padding-left: 10px;
+  width: 131px;
 }
 
 .header__nav--bottom-left > div {
@@ -291,7 +238,7 @@ body {
 
 .header__nav--bottom-right {
   float: left;
-  width: 60%;
+  width: 213px;
   padding-left: 10px;
 }
 
@@ -301,7 +248,7 @@ body {
   box-shadow: 0px 8px 10px rgba(45, 216, 130, 0.3);
   border-radius: 5px;
   font-family: var(--compact-medium);
-  font-size: 19px;
+  font-size: 17px;
   line-height: 23px;
   color: #ffffff;
   height: 46px;
@@ -322,7 +269,7 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1050px) {
   .header__nav--mobile-menu {
     display: block;
   }
@@ -367,7 +314,7 @@ body {
 
 /* ********************************************************** footer section */
 .footer {
-  padding-bottom: 100px;
+  padding-bottom: 222px;
   overflow: hidden;
 }
 
@@ -375,6 +322,8 @@ body {
   overflow: hidden;
   padding-top: 114px;
   padding-bottom: 93px;
+  padding-left: 10.573vw;
+  padding-right: 19.323vw;
 }
 
 .footer__main--logo {
@@ -527,6 +476,8 @@ body {
   line-height: 25px;
   color: rgba(84, 86, 90, 0.8);
   padding-top: 48px;
+  padding-left: 10.573vw;
+  padding-right: 17.656vw;
 }
 
 .footer__test {
@@ -685,7 +636,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .auth__container--box-input-div > input {
   font-family: var(--compact-medium);
-  height: 26px;
   font-size: 22px;
   line-height: 26px;
   margin-top: 4px;
@@ -1519,6 +1469,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   overflow: hidden;
   padding-top: 87px;
   padding-bottom: 109px;
+  padding-left: 15.677vw;
+  padding-right: 13.125vw;
   position: relative;
 }
 
@@ -1558,7 +1510,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   overflow: hidden;
   float: left;
   width: 50%;
-  overflow: hidden;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1566,7 +1517,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     overflow: hidden;
     float: left;
     width: 100%;
-    overflow: hidden;
   }
 }
 
@@ -1883,14 +1833,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   overflow: hidden;
   margin-bottom: 100px;
   margin-top: 50px;
-  overflow: hidden;
 }
 
 .about__bg--photos-profile {
   overflow: hidden;
   margin-bottom: 100px;
   margin-top: 50px;
-  overflow: hidden;
 }
 
 .about__bg--photos-profile > div {

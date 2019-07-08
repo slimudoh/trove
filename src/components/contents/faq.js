@@ -10,7 +10,7 @@ export function Faq() {
     <div>
       <Header page={"faq"} />
       <div className="faq">
-        <div className="faq__bg--content main__container">
+        <div className="faq__bg--content">
           <div className="pricing__bg--btm-right">
             <img
               src={require("./../../assets/img/single-tree.png")}
