@@ -23,6 +23,9 @@ export function Home(props) {
           <div className="home__content--header-app">
             <img src={require("./../../assets/img/dark-app.png")} alt="" />
           </div>
+          <div className="home__content--header-phones">
+            <img src={require("./../../assets/img/phones.png")} alt="" />
+          </div>
         </div>
       </div>
       <div className="home__content--invest">
@@ -59,25 +62,27 @@ export function Home(props) {
           <p>Real companies. Real Money</p>
           <div>
             <div>
-              <img src={require("./../../assets/img/invest-1.png")} alt="" />
+              <img src={require("./../../assets/img/invest-7.png")} alt="" />
             </div>
             <div>
-              <img src={require("./../../assets/img/invest-2.png")} alt="" />
+              <img src={require("./../../assets/img/invest-1.png")} alt="" />
             </div>
+
             <div>
               <img src={require("./../../assets/img/invest-3.png")} alt="" />
             </div>
+
             <div>
-              <img src={require("./../../assets/img/invest-4.png")} alt="" />
+              <img src={require("./../../assets/img/invest-6.png")} alt="" />
             </div>
             <div>
               <img src={require("./../../assets/img/invest-5.png")} alt="" />
             </div>
             <div>
-              <img src={require("./../../assets/img/invest-6.png")} alt="" />
+              <img src={require("./../../assets/img/invest-2.png")} alt="" />
             </div>
             <div>
-              <img src={require("./../../assets/img/invest-7.png")} alt="" />
+              <img src={require("./../../assets/img/invest-4.png")} alt="" />
             </div>
           </div>
         </div>
@@ -253,13 +258,13 @@ export function Home(props) {
         </div>
       </div>
       <div className="home__content--clients">
-        <div className="pricing__bg--btm-right">
+        <div className="home__content--btm-right">
           <img
             src={require("./../../assets/img/single-tree.png")}
             alt="stock"
           />
         </div>
-        <div>
+        <div className="home__content--clients-child">
           <p>You're In Safe Hands.</p>
           <span>We work with renowned and trusted brands.</span>
           <div>
