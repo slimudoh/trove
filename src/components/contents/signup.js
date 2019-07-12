@@ -13,15 +13,15 @@ export function Signup() {
   return (
     <div className="auth__container">
       <div className="auth__container-design-bottom">
-        <img src={require("./../../assets/img/signup.png")} alt="logo" />
+        <img src={require("./../../assets/img/signup.png")} alt="" />
       </div>
       <div className="auth__container-design-left">
-        <img src={require("./../../assets/img/tree.png")} alt="logo" />
+        <img src={require("./../../assets/img/tree.png")} alt="" />
       </div>
       <div className="auth__container-design-top">
-        <img src={require("./../../assets/img/plant-tail.png")} alt="logo" />
+        <img src={require("./../../assets/img/plant-tail.png")} alt="" />
       </div>
-      <div className="auth__container--box main__container">
+      <div className="auth__container--box">
         <div>
           <div className="auth__container--box-header">
             <div className="auth__container--box-header-logo">

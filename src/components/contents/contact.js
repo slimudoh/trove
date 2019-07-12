@@ -10,7 +10,7 @@ export function Contact() {
     <div>
       <Header page={"contact"} />
       <div className="contact">
-        <div className="contact__bg--content main__container">
+        <div className="contact__bg--content">
           <div className="pricing__bg--btm-right">
             <img
               src={require("./../../assets/img/single-tree.png")}
@@ -20,7 +20,7 @@ export function Contact() {
           <span>Contact us</span>
           <p>Send us a message</p>
           <div>
-            <div>
+            <div className="contact__bg--content-left">
               <div className="contact__input--half">
                 <div>
                   <label>Your Full Name</label>
@@ -60,7 +60,7 @@ export function Contact() {
                 <button>Submit</button>
               </div>
             </div>
-            <div>
+            <div className="contact__bg--content-right">
               <div className="contact__address">
                 <span>Address</span>
                 <p>42, Ajose Street, Mende, Maryland, Lagos</p>

@@ -9,7 +9,7 @@ export function Home(props) {
   return (
     <div>
       <Header page={"home"} />
-      <div className="home__content--header main__container">
+      <div className="home__content--header">
         <span>Investing simplified</span>
         <p>
           Forget high account opening fees. Start investing in US, Chinese &
@@ -23,9 +23,12 @@ export function Home(props) {
           <div className="home__content--header-app">
             <img src={require("./../../assets/img/dark-app.png")} alt="" />
           </div>
+          <div className="home__content--header-phones">
+            <img src={require("./../../assets/img/phones.png")} alt="" />
+          </div>
         </div>
       </div>
-      <div className="home__content--invest main__container">
+      <div className="home__content--invest">
         <div className="home__content--invest-top">
           <div className="home__content--invest-design-top-left">
             <img src={require("./../../assets/img/phone-left.png")} alt="" />
@@ -59,30 +62,32 @@ export function Home(props) {
           <p>Real companies. Real Money</p>
           <div>
             <div>
-              <img src={require("./../../assets/img/invest-1.png")} alt="" />
+              <img src={require("./../../assets/img/invest-7.png")} alt="" />
             </div>
             <div>
-              <img src={require("./../../assets/img/invest-2.png")} alt="" />
+              <img src={require("./../../assets/img/invest-1.png")} alt="" />
             </div>
+
             <div>
               <img src={require("./../../assets/img/invest-3.png")} alt="" />
             </div>
+
             <div>
-              <img src={require("./../../assets/img/invest-4.png")} alt="" />
+              <img src={require("./../../assets/img/invest-6.png")} alt="" />
             </div>
             <div>
               <img src={require("./../../assets/img/invest-5.png")} alt="" />
             </div>
             <div>
-              <img src={require("./../../assets/img/invest-6.png")} alt="" />
+              <img src={require("./../../assets/img/invest-2.png")} alt="" />
             </div>
             <div>
-              <img src={require("./../../assets/img/invest-7.png")} alt="" />
+              <img src={require("./../../assets/img/invest-4.png")} alt="" />
             </div>
           </div>
         </div>
       </div>
-      <div className="home__content--why main__container">
+      <div className="home__content--why">
         <div className="home__content--why-design-left">
           <img src={require("./../../assets/img/back-tree.png")} alt="" />
         </div>
@@ -129,7 +134,7 @@ export function Home(props) {
           </div>
         </div>
       </div>
-      <div className="home__content--steps main__container">
+      <div className="home__content--steps">
         <div className="home__content--steps-design_bottom">
           <img src={require("./../../assets/img/plant-pot.png")} alt="" />
         </div>
@@ -202,7 +207,7 @@ export function Home(props) {
           </div>
         </div>
       </div>
-      <div className="home__content--app main__container">
+      <div className="home__content--app">
         <div className="home__content--app-left">
           <div>
             <img src={require("./../../assets/img/mobile.png")} alt="" />
@@ -225,7 +230,7 @@ export function Home(props) {
           </div>
         </div>
       </div>
-      <div className="home__content--safety main__container">
+      <div className="home__content--safety">
         <div>
           <div className="home__content--safety-left">
             <span>SAFETY FIRST</span>
@@ -252,14 +257,14 @@ export function Home(props) {
           </div>
         </div>
       </div>
-      <div className="home__content--clients main__container">
-        <div className="pricing__bg--btm-right">
+      <div className="home__content--clients">
+        <div className="home__content--btm-right">
           <img
             src={require("./../../assets/img/single-tree.png")}
             alt="stock"
           />
         </div>
-        <div>
+        <div className="home__content--clients-child">
           <p>You're In Safe Hands.</p>
           <span>We work with renowned and trusted brands.</span>
           <div>

@@ -12,7 +12,7 @@ export function Footer(props) {
 
   return (
     <div className="footer">
-      <div className="footer__main main__container">
+      <div className="footer__main">
         <div className="footer__main--logo">
           <div className="footer__main--logo-top">
             <img src={require("./../../assets/img/logo.png")} alt="logo" />
@@ -68,7 +68,7 @@ export function Footer(props) {
           </div>
         </div>
       </div>
-      <div className="footer__text main__container">
+      <div className="footer__text">
         Trove is a technology platform, not a registered broker-dealer or
         investment adviser. Trove does not offer its own recommendations of any
         security or provide its own research to any user regarding any security
