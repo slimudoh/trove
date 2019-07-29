@@ -34,7 +34,7 @@ export function Home(props) {
             <img src={require("./../../assets/img/phone-left.png")} alt="" />
           </div>
           <div className="home__content--invest-design-top-right">
-            <img src={require("./../../assets/img/phone-right.png")} alt="" />
+            <img src={require("./../../assets/img/phone-right.png")} alt=""  />
           </div>
 
           <div className="home__content--invest-top-content">
@@ -51,7 +51,7 @@ export function Home(props) {
                   into an investment portfolio almost without you noticing.
                 </p>
                 <div>
-                  <div>Get Started &#8594;</div>
+                  <div>Get Started  &#8594;</div>
                 </div>
               </div>
             </div>
