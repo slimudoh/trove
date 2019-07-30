@@ -602,10 +602,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   overflow: hidden;
   float: right;
   width: 140px;
-  font-family: var(--compact-thin);
+  font-family: var(--compact-black);
   font-size: 1em;
   line-height: 46px;
-  color: rgba(44, 46, 48, 0.3);
+  color: #777;
   padding-top: 0;
   text-align: right;
 }
@@ -626,7 +626,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .auth__container--box-input > p {
   font-family: var(--compact-thin);
-  font-size: 1em;
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 19px;
   text-transform: uppercase;
   color: rgba(126, 128, 133, 0.4);
@@ -635,7 +636,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .auth__container--box-input > span {
   font-family: var(--tiempos-medium);
-  font-size: 2.6875em;
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   color: #2c2e30;
 }
@@ -672,17 +674,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .auth__container--box-input-div > label {
   font-family: var(--compact-thin);
-  font-size: 1em;
+  font-size: 0.85em;
   line-height: 19px;
   color: rgba(81, 82, 85, 0.7);
 }
 
 .auth__container--box-input-div > input {
   font-family: var(--compact-medium);
-  font-size: 1.375em;
+  font-size: 1.2em;
   line-height: 26px;
   margin-top: 4px;
-  color: #282a2f;
+  color: #000000 !important;
   height: 40px;
 }
 
@@ -772,7 +774,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   height: 82px;
   padding-left: 1.563vw;
   font-family: var(--compact-thin);
-  font-size: 1.125em;
+  font-size: 1em;
   line-height: 21px;
   color: #515255;
 }
@@ -787,7 +789,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   height: 82px;
   padding-left: 1.563vw;
   font-family: var(--compact-thin);
-  font-size: 1.125em;
+  font-size: 1em;
   line-height: 21px;
   color: #515255;
 }
@@ -796,7 +798,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background: #2dd882;
   border-radius: 5px;
   font-family: var(--compact-medium);
-  font-size: 1.375em;
+  font-size: 1.1em;
   line-height: 26px;
   margin-top: 43px;
   text-align: center;
@@ -806,7 +808,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .auth__container--box-footer {
   font-family: var(--compact-thin);
-  font-size: 1em;
+  font-size: 0.75em;
   line-height: 25px;
   color: #54565a;
   opacity: 0.3;
@@ -819,7 +821,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 @media only screen and (max-width: 500px) {
   .auth__container--box-footer {
     font-family: var(--compact-thin);
-    font-size: 0.875em;
+    font-size: 0.75em;
     line-height: 25px;
     color: #54565a;
     opacity: 0.3;
