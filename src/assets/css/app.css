@@ -1142,7 +1142,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .faq__bg--content-header > span {
   font-family: var(--compact-thin);
-  font-size: 1em;
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 19px;
   text-align: center;
   text-transform: uppercase;
@@ -1151,7 +1152,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .faq__bg--content-header > p {
   font-family: var(--tiempos-medium);
-  font-size: 2.375em;
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   text-align: center;
   color: #2c2e30;
@@ -1192,14 +1194,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .faq__bg--content-body > div > div > div > span {
   font-family: var(--compact-medium);
-  font-size: 1.3125em;
+  font-size: 1em;
+  font-weight: 600;
   line-height: 25px;
   color: #2c2e30;
 }
 
 .faq__bg--content-body > div > div > div > p {
   font-family: var(--compact-thin);
-  font-size: 1em;
+  font-size: 0.85em;
   line-height: 28px;
   color: #54565a;
   margin-top: 18px;
