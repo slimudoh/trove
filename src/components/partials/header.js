@@ -38,7 +38,7 @@ export function Header(props) {
             <div>
               <Link to="/signup">
                 <div
-                  style={{ width: "100%", height: "46px", paddingTop: "13px" }}
+                  style={{ width: "100%", height: "10px", paddingTop: "15px" }}
                 >
                   Sign Up
                 </div>
