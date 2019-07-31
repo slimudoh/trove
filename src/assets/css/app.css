@@ -213,14 +213,16 @@ body {
   float: left;
   width: 250px;
   overflow: hidden;
-  padding-top: 18px;
+
+  padding-top: 9px;
 }
 
 .header__nav--menu > div {
   float: left;
   width: 33.33333333%;
-  font-family: var(--compact-medium);
-  font-size: 1.0625em;
+
+  font-family: var(--compact-regular);
+  font-size: 0.9em;
   line-height: 20px;
   text-align: center;
   color: #060a2a;
@@ -253,18 +255,20 @@ body {
   float: left;
   border: 1px solid #2dd882;
   border-radius: 5px;
-  font-family: var(--compact-medium);
-  font-size: 1.0625em;
-  line-height: 20px;
+
+  font-family: var(--compact-regular);
+  font-size: 0.85em;
+  line-height: 5px;
   text-align: center;
   color: #2dd882;
-  height: 46px;
+  height: 35px;
 }
 
 .header__nav--bottom-right {
   float: left;
   width: 213px;
-  padding-left: 0.521vw;
+
+  padding-left: 1.21vw;
 }
 
 @media (max-width: 1400px) {
@@ -279,10 +283,11 @@ body {
   box-shadow: 0px 8px 10px rgba(45, 216, 130, 0.3);
   border-radius: 5px;
   font-family: var(--compact-medium);
-  font-size: 1.0625em;
-  line-height: 23px;
+
+  font-size: 0.85em;
+  line-height: 8px;
   color: #ffffff;
-  height: 46px;
+  height: 35px;
   text-align: center;
   padding-top: 13px;
 }
@@ -345,14 +350,14 @@ body {
 
 /* ********************************************************** footer section */
 .footer {
-  padding-bottom: 222px;
-  overflow: hidden;
+  padding-bottom: 70px;
 }
 
 .footer__main {
   overflow: hidden;
-  padding-top: 114px;
-  padding-bottom: 93px;
+
+  padding-top: 74px;
+  padding-bottom: 43px;
   padding-left: 10.573vw;
   padding-right: 19.323vw;
 }
@@ -452,10 +457,10 @@ body {
 }
 
 .footer__main--logo-text {
-  max-width: 289px;
+  max-width: 250px;
   margin-top: 44px;
   font-family: var(--compact-thin);
-  font-size: 1em;
+  font-size: 0.82em;
   line-height: 25px;
   color: rgba(84, 86, 90, 0.56);
 }
@@ -467,16 +472,19 @@ body {
 
 .footer__main--header {
   font-family: var(--compact-medium);
-  font-size: 1.125em;
+
+  font-size: 0.9em;
+  font-weight: 600;
   line-height: 21px;
   color: #2c2e30;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .footer__main--menu-item {
   font-family: var(--compact-thin);
-  font-size: 1em;
-  line-height: 39px;
+
+  font-size: 0.75em;
+  line-height: 32px;
   color: #54565a;
 }
 
@@ -503,8 +511,9 @@ body {
 
 .footer__text {
   font-family: var(--compact-thin);
-  font-size: 0.875em;
-  line-height: 25px;
+
+  font-size: 0.8em;
+  line-height: 28px;
   color: rgba(84, 86, 90, 0.8);
   padding-top: 48px;
   padding-left: 10.573vw;
@@ -517,7 +526,9 @@ body {
 
 .footer__test ul {
   list-style-type: none;
-  padding: 20px 0;
+
+  padding: 15px 0;
+  font-size: 0.82em;
 }
 
 .footer__test ul li {
@@ -599,10 +610,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   overflow: hidden;
   float: right;
   width: 140px;
-  font-family: var(--compact-thin);
+
+  font-family: var(--compact-black);
   font-size: 1em;
   line-height: 46px;
-  color: rgba(44, 46, 48, 0.3);
+  color: #777;
   padding-top: 0;
   text-align: right;
 }
@@ -623,7 +635,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .auth__container--box-input > p {
   font-family: var(--compact-thin);
-  font-size: 1em;
+
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 19px;
   text-transform: uppercase;
   color: rgba(126, 128, 133, 0.4);
@@ -632,7 +646,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .auth__container--box-input > span {
   font-family: var(--tiempos-medium);
-  font-size: 2.6875em;
+
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   color: #2c2e30;
 }
@@ -669,17 +685,19 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .auth__container--box-input-div > label {
   font-family: var(--compact-thin);
-  font-size: 1em;
+
+  font-size: 0.85em;
   line-height: 19px;
   color: rgba(81, 82, 85, 0.7);
 }
 
 .auth__container--box-input-div > input {
   font-family: var(--compact-medium);
-  font-size: 1.375em;
+
+  font-size: 1.2em;
   line-height: 26px;
   margin-top: 4px;
-  color: #282a2f;
+  color: #000000 !important;
   height: 40px;
 }
 
@@ -769,7 +787,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   height: 82px;
   padding-left: 1.563vw;
   font-family: var(--compact-thin);
-  font-size: 1.125em;
+
+  font-size: 1em;
   line-height: 21px;
   color: #515255;
 }
@@ -784,7 +803,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   height: 82px;
   padding-left: 1.563vw;
   font-family: var(--compact-thin);
-  font-size: 1.125em;
+
+  font-size: 1em;
   line-height: 21px;
   color: #515255;
 }
@@ -793,7 +813,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background: #2dd882;
   border-radius: 5px;
   font-family: var(--compact-medium);
-  font-size: 1.375em;
+
+  font-size: 1.1em;
   line-height: 26px;
   margin-top: 43px;
   text-align: center;
@@ -803,7 +824,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .auth__container--box-footer {
   font-family: var(--compact-thin);
-  font-size: 1em;
+  font-size: 0.75em;
   line-height: 25px;
   color: #54565a;
   opacity: 0.3;
@@ -816,7 +837,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 @media only screen and (max-width: 500px) {
   .auth__container--box-footer {
     font-family: var(--compact-thin);
-    font-size: 0.875em;
+
+    font-size: 0.75em;
     line-height: 25px;
     color: #54565a;
     opacity: 0.3;
@@ -903,7 +925,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .download__container > div > span {
   font-family: var(--tiempos-medium);
-  font-size: 2.375em;
+
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   text-align: center;
   color: #ffffff;
@@ -921,15 +945,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .download__container > div > p {
   font-family: var(--compact-thin);
-  font-size: 1.0625em;
-  line-height: 34px;
+
+  font-size: 0.9em;
+  line-height: 30px;
   text-align: center;
   color: #ffffff;
   margin-top: 10px;
 }
 
 .download__container > div > div {
-  margin: 25px auto 0 auto;
+  margin: 30px auto 0 auto;
   overflow: hidden;
   max-width: 400px;
 }
@@ -1037,7 +1062,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   float: left;
   width: 30%;
   font-family: var(--tiempos-medium);
-  font-size: 2.375em;
+
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   color: #2c2e30;
   padding-bottom: 0;
@@ -1064,7 +1091,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .terms__bg--content-right > p {
   font-family: var(--tiempos-thin);
-  font-size: 1.25em;
+
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 28px;
   color: #54565a;
   margin-bottom: 20px;
@@ -1072,7 +1101,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .terms__bg--content-right > div {
   font-family: var(--tiempos-thin);
-  font-size: 1em;
+
+  font-size: 0.85em;
   line-height: 28px;
   color: #54565a;
 }
@@ -1136,7 +1166,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .faq__bg--content-header > span {
   font-family: var(--compact-thin);
-  font-size: 1em;
+
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 19px;
   text-align: center;
   text-transform: uppercase;
@@ -1145,7 +1177,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .faq__bg--content-header > p {
   font-family: var(--tiempos-medium);
-  font-size: 2.375em;
+
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   text-align: center;
   color: #2c2e30;
@@ -1186,14 +1220,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .faq__bg--content-body > div > div > div > span {
   font-family: var(--compact-medium);
-  font-size: 1.3125em;
+
+  font-size: 1em;
+  font-weight: 600;
   line-height: 25px;
   color: #2c2e30;
 }
 
 .faq__bg--content-body > div > div > div > p {
   font-family: var(--compact-thin);
-  font-size: 1em;
+
+  font-size: 0.85em;
   line-height: 28px;
   color: #54565a;
   margin-top: 18px;
@@ -1230,7 +1267,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   overflow: hidden;
   background: #fbfbfb;
   padding-top: 100px;
-  padding-bottom: 77px;
+
+  padding-bottom: 40px;
   padding-left: 18.229vw;
   padding-right: 18.229vw;
   position: relative;
@@ -1293,7 +1331,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .pricing__bg--content-header > span {
   font-family: var(--compact-medium);
-  font-size: 1em;
+
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 19px;
   text-align: center;
   text-transform: uppercase;
@@ -1302,7 +1342,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .pricing__bg--content-header > p {
   font-family: var(--tiempos-medium);
-  font-size: 2.375em;
+
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   text-align: center;
   color: #2c2e30;
@@ -1312,7 +1354,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .pricing__bg--content-nav {
   max-width: 80%;
-  height: 64px;
+
+  height: 48px;
   margin: 0 auto;
   background: #ffffff;
   overflow: hidden;
@@ -1343,7 +1386,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 @media only screen and (max-width: 600px) {
   .pricing__bg--content-nav {
     max-width: 800px;
-    height: 64px;
+
+    height: 48px;
     margin: 0 auto;
     background: #ffffff;
     overflow: hidden;
@@ -1367,11 +1411,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .pricing__bg--content-nav > div {
   width: 20%;
   float: left;
-  height: 64px;
+
+  height: 48px;
   border-radius: 34px;
   font-family: var(--circular);
-  font-size: 1em;
-  line-height: 25px;
+  font-size: 0.9em;
+  line-height: 11px;
   text-align: center;
   padding-top: 20px;
   cursor: pointer;
@@ -1461,7 +1506,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .pricing__bg--content-price-child > div > span {
   font-family: var(--circular);
-  font-size: 1.125em;
+
+  font-size: 0.85em;
   line-height: 23px;
   text-align: center;
   color: #818992;
@@ -1469,7 +1515,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .pricing__bg--content-price-child > div > p {
   font-family: var(--circular);
-  font-size: 3.75em;
+
+  font-size: 3em;
   line-height: 56px;
   text-align: center;
   text-transform: uppercase;
@@ -1485,18 +1532,19 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .pricing__bg--content-price-child > div > ul > li {
   font-family: var(--circular);
-  font-size: 1em;
+
+  font-size: 0.8em;
   line-height: 34px;
   text-align: center;
   color: #2d3136;
 }
 
 .pricing__bg--content-price-child > div > div {
-  width: 194px;
-  height: 52px;
+  width: 150px;
+  height: 45px;
   font-family: var(--compact-medium);
-  font-size: 1.0625em;
-  line-height: 20px;
+  font-size: 0.85em;
+  line-height: 16px;
   color: #2dd882;
   border: 1px solid #2dd882;
   box-shadow: 0px 8px 10px rgba(45, 216, 130, 0.3);
@@ -1535,19 +1583,22 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .pricing__bg--content-features-child > div > div {
   background: rgba(45, 216, 130, 0.1);
   border-radius: 60px;
-  height: 86px;
-  width: 86px;
+
+  height: 60px;
+  width: 60px;
   margin: auto;
-  padding-top: 25px;
+  padding-top: 17px;
 }
 
 .pricing__bg--content-features-child > div > div > img {
-  width: 40px;
+  width: 22px;
 }
 
 .pricing__bg--content-features-child > div > p {
   font-family: var(--compact-medium);
-  font-size: 1.5em;
+
+  font-size: 1em;
+  font-weight: 600;
   line-height: 29px;
   text-align: center;
   color: #2c2e30;
@@ -1557,7 +1608,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .pricing__bg--content-features-child > div > span {
   font-family: var(--compact-thin);
-  font-size: 1.0625em;
+
+  font-size: 0.8em;
   line-height: 28px;
   text-align: center;
   color: #54565a;
@@ -1595,7 +1647,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .contact__bg--content > span {
   overflow: hidden;
   font-family: var(--compact-thin);
-  font-size: 1em;
+
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 19px;
   text-transform: uppercase;
   color: #7e8085;
@@ -1604,7 +1658,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .contact__bg--content > p {
   overflow: hidden;
   font-family: var(--tiempos-medium);
-  font-size: 2.375em;
+
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   color: #2c2e30;
 }
@@ -1670,7 +1726,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background: #f8f8f8;
   border-radius: 5px;
   font-family: var(--compact-thin);
-  font-size: 1em;
+
+  font-size: 0.85em;
   line-height: 19px;
   color: #515255;
   opacity: 0.7;
@@ -1680,9 +1737,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background: #f8f8f8;
   border-radius: 5px;
   font-family: var(--compact-medium);
-  font-size: 1.375em;
+
+  font-size: 1.2em;
   line-height: 26px;
-  color: #282a2f;
+  color: #000;
   margin-top: 5px;
   height: 40px;
 }
@@ -1754,8 +1812,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   box-shadow: 0px 8px 10px rgba(45, 216, 130, 0.3);
   border-radius: 5px;
   font-family: var(--compact-medium);
-  font-size: 1.5em;
-  line-height: 29px;
+
+  font-size: 1.1em;
+  line-height: 26px;
   color: #ffffff;
 }
 
@@ -1775,7 +1834,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .contact__address > span {
   font-family: var(--compact-thin);
-  font-size: 1.125em;
+
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 21px;
   color: #515255;
   opacity: 0.4;
@@ -1788,7 +1849,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: #515255;
   height: 58px;
   margin-bottom: 58px;
-  margin-top: 13px;
+
+  margin-top: 5px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1816,7 +1878,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .about__bg--header {
   overflow: hidden;
-  padding-bottom: 200px;
+
+  padding-bottom: 150px;
   background-image: url("./../img/about-bg.png");
   background-repeat: no-repeat;
   background-position: center right;
@@ -1877,16 +1940,19 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .about__bg--header-left > span {
   font-family: var(--tiempos-medium);
-  font-size: 65px;
-  line-height: 78px;
+
+  font-size: 2.5em;
+  font-weight: 600;
+  line-height: 88px;
   letter-spacing: 1px;
   color: #0d0d21;
 }
 
 .about__bg--header-left > p {
   font-family: var(--compact-thin);
-  font-size: 26px;
-  line-height: 44px;
+
+  font-size: 0.95em;
+  line-height: 30px;
   color: #0d0d21;
   margin-top: 10px;
   margin-bottom: 40px;
@@ -1899,7 +1965,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
   .about__bg--header-left > p {
-    font-size: 20px;
+    font-size: 0.95em;
     line-height: 30px;
   }
 }
@@ -1970,42 +2036,47 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .about__bg--photos > p {
   font-family: var(--tiempos-medium);
   font-size: 3.0625em;
-  line-height: 59px;
+
+  line-height: 30px;
   letter-spacing: 1px;
   color: #0d0d21;
-  padding-top: 100px;
-  margin-bottom: 10px;
+  padding-top: 60px;
+  margin-bottom: 5px;
 }
 
 @media only screen and (max-width: 1400px) {
   .about__bg--photos > p {
-    font-size: 2.5em;
+    font-size: 2em;
+    font-weight: 600;
   }
 }
 
 .about__bg--photos > span {
   font-family: var(--compact-thin);
-  font-size: 1.625em;
+
+  font-size: 0.95em;
   line-height: 44px;
   color: #0d0d21;
 }
 
 @media only screen and (max-width: 1400px) {
   .about__bg--photos > span {
-    font-size: 1.25em;
+    font-size: 0.95em;
   }
 }
 
 .about__bg--photos > div {
   overflow: hidden;
-  margin-bottom: 100px;
-  margin-top: 50px;
+
+  margin-bottom: 60px;
+  margin-top: 20px;
 }
 
 .about__bg--photos-profile {
   overflow: hidden;
-  margin-bottom: 100px;
-  margin-top: 50px;
+
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .about__bg--photos-profile > div {
@@ -2054,23 +2125,25 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .about__bg--photos-profile-btm > span {
   font-family: var(--compact-medium);
-  font-size: 1.625em;
-  line-height: 44px;
+
+  font-size: 16px;
+  line-height: 35px;
   color: #0d0d21;
 }
 
 @media only screen and (max-width: 1400px) {
   .about__bg--photos-profile-btm > span {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
 .about__bg--photos-profile-btm > p {
   font-family: var(--compact-thin);
-  font-size: 1.1875em;
+
+  font-size: 12px;
   line-height: 44px;
-  color: #0d0d21;
-  opacity: 0.4;
+  color: #777;
+  /* opacity: 0.7; */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2078,7 +2151,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 @media only screen and (max-width: 1400px) {
   .about__bg--photos-profile-btm > p {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
   }
 }
@@ -2175,7 +2248,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .about__bg--community-text > div > p {
   font-family: var(--tiempos-medium);
-  font-size: 2.5em;
+
+  font-size: 2em;
+  font-weight: 600;
   line-height: 40px;
   letter-spacing: 1px;
   color: #0d0d21;
@@ -2184,20 +2259,24 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .about__bg--community-text > div > span {
   font-family: var(--compact-thin);
-  font-size: 1.25em;
+
+  font-size: 0.95em;
   line-height: 30px;
   color: #0d0d21;
 }
 
 .about__bg--community-text > div > div {
   width: 200px;
-  height: 72px;
+
+  height: 60px;
   background: #2dd882;
   box-shadow: 0px 8px 10px rgba(45, 216, 130, 0.3);
   border-radius: 5px;
   font-family: var(--compact-medium);
-  font-size: 1.5em;
-  line-height: 29px;
+
+  font-size: 1em;
+  font-weight: 600;
+  /* line-height: 29px; */
   margin-top: 25px;
   color: #ffffff;
   text-align: center;
@@ -2236,28 +2315,32 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--clients-child {
   text-align: center;
-  padding: 100px 0;
+
+  padding: 80px 0;
 }
 
 .home__content--clients > div > p {
   font-family: var(--tiempos-medium);
-  font-size: 2.375em;
+
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   text-align: center;
   color: #2c2e30;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .home__content--clients > div > span {
   font-family: var(--compact-thin);
-  font-size: 1.375em;
+
+  font-size: 0.9em;
   line-height: 34px;
   text-align: center;
   color: #7e8085;
 }
 
 .home__content--clients > div > div {
-  margin-top: 50px;
+  margin-top: 30px;
   overflow: hidden;
 }
 
@@ -2313,7 +2396,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--safety > div {
   overflow: hidden;
-  padding: 200px 0 150px 0;
+
+  padding: 190px 0 80px 0;
 }
 
 .home__content--safety-left {
@@ -2330,7 +2414,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--safety-left > span {
   font-family: var(--compact-thin);
-  font-size: 1em;
+
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 19px;
   text-transform: uppercase;
   color: #ffffff;
@@ -2338,7 +2424,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--safety-left > p {
   font-family: var(--tiempos-medium);
-  font-size: 2.375em;
+
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   color: #ffffff;
   margin: 15px 0 45px 0;
@@ -2350,15 +2438,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--safety-left > div > span {
   font-family: var(--tiempos-medium);
-  font-size: 1.25em;
+
+  font-size: 1em;
   line-height: 46px;
   color: #ffffff;
 }
 
 .home__content--safety-left > div > p {
   font-family: var(--compact-thin);
-  font-size: 1.125em;
-  line-height: 28px;
+
+  font-size: 0.82em;
+  line-height: 24px;
   color: #ffffff;
   margin-top: 5px;
   max-width: 27.76vw;
@@ -2391,7 +2481,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .home__content--app {
-  height: 700px;
+  height: 650px;
   background-image: url("./../img/app-section.png");
   background-repeat: no-repeat;
   background-position: center top;
@@ -2402,7 +2492,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 @media only screen and (max-width: 800px) {
   .home__content--app {
-    height: 1350px;
+    height: 1100px;
   }
 }
 
@@ -2442,13 +2532,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .home__content--app-right {
     float: left;
     width: 100%;
-    padding-top: 300px;
+    padding-top: 20px;
   }
 }
 
 .home__content--app-right > h3 {
   font-family: var(--compact-thin);
-  font-size: 1em;
+
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 19px;
   text-transform: uppercase;
   color: #0d0d21;
@@ -2458,7 +2550,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--app-right > p {
   font-family: var(--tiempos-medium);
-  font-size: 2.375em;
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   color: #2c2e30;
   margin: 15px 0;
@@ -2466,7 +2559,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--app-right > span {
   font-family: var(--compact-thin);
-  font-size: 1.125em;
+  font-size: 0.9em;
   line-height: 28px;
   color: #0d0d21;
   border-radius: 900px;
@@ -2477,14 +2570,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .home__content--app-right > div > div {
-  width: 250px;
-  height: 74px;
+  width: 200px;
+  height: 60px;
   background: #2dd882;
   box-shadow: 0px 8px 10px rgba(45, 216, 130, 0.3);
   border-radius: 5px;
   font-family: var(--compact-thin);
-  font-size: 1.5em;
-  line-height: 29px;
+
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 20px;
   color: #ffffff;
   text-align: center;
   padding-top: 20px;
@@ -2512,7 +2607,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--steps > div {
   overflow: hidden;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 .home__content--steps-left {
@@ -2531,7 +2626,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--steps-left > span {
   font-family: var(--compact-thin);
-  font-size: 1em;
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 19px;
   text-transform: uppercase;
   color: #0d0d21;
@@ -2540,7 +2636,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--steps-left > p {
   font-family: var(--tiempos-medium);
-  font-size: 2.875em;
+
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   color: #2c2e30;
   margin-top: 15px;
@@ -2556,17 +2654,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .home__content--steps-left-box-left {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   float: left;
   background: rgba(45, 216, 130, 0.1);
   font-family: var(--tiempos-medium);
-  font-size: 2.5em;
+  font-size: 1.2em;
   line-height: 46px;
   color: #2dd882;
   border-radius: 60px;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 9px;
 }
 
 .home__content--steps-left-box-right {
@@ -2585,15 +2683,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--steps-left-box-right > span {
   font-family: var(--tiempos-medium);
-  font-size: 1.875em;
+  font-size: 1.2em;
+  font-weight: 600;
   line-height: 46px;
   color: #2c2e30;
 }
 
 .home__content--steps-left-box-right > p {
   font-family: var(--compact-thin);
-  font-size: 1.25em;
-  line-height: 36px;
+
+  font-size: 0.82em;
+  line-height: 24px;
   color: #54565a;
 }
 
@@ -2648,8 +2748,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .home__content--why {
   background: #fff;
   text-align: center;
-  padding-top: 128px;
-  padding-bottom: 100px;
+
+  padding-top: 75px;
+  padding-bottom: 60px;
   position: relative;
   padding-left: 20.365vw;
   padding-right: 20.365vw;
@@ -2695,18 +2796,20 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--why > h3 {
   font-family: var(--compact-thin);
-  font-size: 1em;
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 19px;
   text-align: center;
   text-transform: uppercase;
   color: #7e8085;
   opacity: 0.5;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .home__content--why > span {
   font-family: var(--tiempos-medium);
-  font-size: 2.375em;
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   text-align: center;
   color: #2c2e30;
@@ -2714,18 +2817,19 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--why > p {
   font-family: var(--compact-thin);
-  font-size: 1.25em;
-  line-height: 36px;
+
+  font-size: 0.9em;
+  line-height: 28px;
   text-align: center;
   color: #54565a;
-  max-width: 520px;
+  max-width: 400px;
   padding: 0 10px;
-  margin: 40px auto 0 auto;
+  margin: 10px auto 0 auto;
 }
 
 .home__content--why-box {
   overflow: hidden;
-  margin-top: 107px;
+  margin-top: 67px;
 }
 
 .home__content--why-box > div {
@@ -2747,21 +2851,23 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .home__content--why-box > div > div {
-  width: 86px;
-  height: 86px;
+  width: 60px;
+  height: 60px;
   border-radius: 60px;
-  padding-top: 25px;
+  padding-top: 17px;
   background: rgba(45, 216, 130, 0.1);
   margin: auto;
 }
 
 .home__content--why-box > div > div > img {
-  width: 40px;
+  width: 21px;
 }
 
 .home__content--why-box > div > p {
   font-family: var(--compact-medium);
-  font-size: 1.5em;
+
+  font-size: 1em;
+  font-weight: 600;
   line-height: 29px;
   text-align: center;
   color: #2c2e30;
@@ -2770,7 +2876,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--why-box > div > span {
   font-family: var(--compact-thin);
-  font-size: 1.0625em;
+
+  font-size: 0.8em;
   line-height: 28px;
   text-align: center;
   color: #54565a;
@@ -2799,7 +2906,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--invest-btm {
   overflow: hidden;
-  padding: 130px 0 100px 0;
+  padding: 70px 0 100px 0;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -2921,7 +3028,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--invest-top-right > h3 {
   font-family: var(--compact-thin);
-  font-size: 1em;
+
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 19px;
   text-transform: uppercase;
   color: #ffffff;
@@ -2931,9 +3040,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--invest-top-right > span {
   font-family: var(--tiempos-medium);
-  font-size: 2.5em;
+
+  font-size: 2.2em;
   line-height: 50px;
   color: #ffffff;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 600px) {
@@ -2947,11 +3058,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--invest-top-right > p {
   font-family: var(--compact-thin);
-  font-size: 1.125em;
+
+  font-size: 0.81em;
   line-height: 30px;
   color: #ffffff;
   margin-top: 20px;
-  max-width: 450px;
+  max-width: 400px;
 }
 
 .home__content--invest-top-right > div {
@@ -2959,14 +3071,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .home__content--invest-top-right > div > div {
-  width: 250px;
-  height: 74px;
+  width: 200px;
+  height: 60px;
   background: #2dd882;
   box-shadow: 0px 8px 10px rgba(45, 216, 130, 0.3);
   border-radius: 5px;
   font-family: var(--compact-thin);
-  font-size: 1.5em;
-  line-height: 29px;
+
+  font-size: 1em;
+  font-weight: 600;
+  /* line-height: 29px; */
   color: #ffffff;
   text-align: center;
   padding-top: 20px;
@@ -2974,7 +3088,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--invest-btm > span {
   font-family: var(--compact-thin);
-  font-size: 1em;
+
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 19px;
   text-align: center;
   text-transform: uppercase;
@@ -2984,7 +3100,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--invest-btm > p {
   font-family: var(--tiempos-medium);
-  font-size: 2.375em;
+
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   text-align: center;
   color: #2c2e30;
@@ -2993,7 +3111,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--invest-btm > div {
   overflow: hidden;
-  margin-top: 90px;
+
+  margin-top: 50px;
 }
 
 .home__content--invest-btm > div > div {
@@ -3031,7 +3150,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .home__content--header {
   padding-top: 50px;
   padding-bottom: 300px;
- /* background-image: url("./../img/phones.png");
+  /* background-image: url("./../img/phones.png");
   background-repeat: no-repeat;
   background-position: right top;
   background-size: contain; */
@@ -3043,7 +3162,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   position: absolute;
   top: 0;
   right: 0;
-  width:50.458vw;
+  width: 50.458vw;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -3061,14 +3180,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 @media only screen and (max-width: 700px) {
   .home__content--header {
     padding-top: 50px;
-    padding-bottom: 300px;
+
+    padding-bottom: 200px;
   }
 }
 
 .home__content--header > span {
   font-family: var(--tiempos-medium);
-  font-size: 3.125em;
-  line-height: 95px;
+
+  font-size: 2.8em;
+  font-weight: 600;
+  line-height: 88px;
   letter-spacing: 1px;
   color: #0d0d21;
 }
@@ -3081,10 +3203,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--header > p {
   font-family: var(--compact-thin);
-  font-size: 1.25em;
+
+  font-size: 0.95em;
   line-height: 30px;
   color: #0d0d21;
-  max-width: 550px;
+  max-width: 420px;
 }
 
 @media only screen and (max-width: 1050px) {
