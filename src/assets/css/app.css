@@ -1043,7 +1043,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   float: left;
   width: 30%;
   font-family: var(--tiempos-medium);
-  font-size: 2.375em;
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   color: #2c2e30;
   padding-bottom: 0;
@@ -1070,7 +1071,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .terms__bg--content-right > p {
   font-family: var(--tiempos-thin);
-  font-size: 1.25em;
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 28px;
   color: #54565a;
   margin-bottom: 20px;
@@ -1078,7 +1080,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .terms__bg--content-right > div {
   font-family: var(--tiempos-thin);
-  font-size: 1em;
+  font-size: 0.85em;
   line-height: 28px;
   color: #54565a;
 }
@@ -1607,7 +1609,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .contact__bg--content > span {
   overflow: hidden;
   font-family: var(--compact-thin);
-  font-size: 1em;
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 19px;
   text-transform: uppercase;
   color: #7e8085;
@@ -1616,7 +1619,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .contact__bg--content > p {
   overflow: hidden;
   font-family: var(--tiempos-medium);
-  font-size: 2.375em;
+  font-size: 2em;
+  font-weight: 600;
   line-height: 46px;
   color: #2c2e30;
 }
@@ -1682,7 +1686,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background: #f8f8f8;
   border-radius: 5px;
   font-family: var(--compact-thin);
-  font-size: 1em;
+  font-size: 0.85em;
   line-height: 19px;
   color: #515255;
   opacity: 0.7;
@@ -1692,9 +1696,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background: #f8f8f8;
   border-radius: 5px;
   font-family: var(--compact-medium);
-  font-size: 1.375em;
+  font-size: 1.2em;
   line-height: 26px;
-  color: #282a2f;
+  color: #000;
   margin-top: 5px;
   height: 40px;
 }
@@ -1766,8 +1770,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   box-shadow: 0px 8px 10px rgba(45, 216, 130, 0.3);
   border-radius: 5px;
   font-family: var(--compact-medium);
-  font-size: 1.5em;
-  line-height: 29px;
+  font-size: 1.1em;
+  line-height: 26px;
   color: #ffffff;
 }
 
@@ -1787,7 +1791,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .contact__address > span {
   font-family: var(--compact-thin);
-  font-size: 1.125em;
+  font-size: 0.82em;
+  font-weight: 600;
   line-height: 21px;
   color: #515255;
   opacity: 0.4;
@@ -1800,7 +1805,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: #515255;
   height: 58px;
   margin-bottom: 58px;
-  margin-top: 13px;
+  margin-top: 5px;
 }
 
 @media only screen and (max-width: 1000px) {
