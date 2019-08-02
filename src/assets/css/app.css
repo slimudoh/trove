@@ -2336,7 +2336,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--safety > div {
   overflow: hidden;
-  padding: 190px 0 80px 0;
+  padding: 120px 0 80px 0;
 }
 
 .home__content--safety-left {
@@ -2680,7 +2680,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background: #fff;
   text-align: center;
   padding-top: 75px;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   position: relative;
   padding-left: 20.365vw;
   padding-right: 20.365vw;
@@ -2839,7 +2839,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 @media only screen and (max-width: 1000px) {
   .home__content--invest-btm {
     overflow: hidden;
-    padding: 650px 0 100px 0;
+    padding: 400px 0 100px 0;
   }
 }
 
@@ -2891,7 +2891,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     top: -50px;
     left: 0;
-    height: 1200px;
+    height: 1000px;
     background: #0d0d21;
   }
 }
@@ -2939,7 +2939,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .home__content--invest-top-right {
     width: 100%;
     float: left;
-    padding: 300px 10px 0 10px;
+    padding: 200px 10px 0 10px;
     text-align: left;
   }
 }
@@ -3016,7 +3016,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   line-height: 19px;
   text-align: center;
   text-transform: uppercase;
-  color: #7e8085;
+  color: #777;
   opacity: 0.5;
 }
 
@@ -3108,11 +3108,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-family: var(--tiempos-medium);
   font-size: 2.8em;
   font-weight: 600;
-  line-height: 88px;
+  line-height: 58px;
   letter-spacing: 1px;
   color: #0d0d21;
 }
-
+@media (max-width: 479px){
+  .home__content--header-phones{
+    display:none;
+  }
+}
 @media only screen and (max-width: 950px) {
   .home__content--header > span {
     font-size: 2.5em;
@@ -3129,7 +3133,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 @media only screen and (max-width: 1050px) {
   .home__content--header > p {
-    max-width: 400px;
+    max-width: 300px;
   }
 }
 
