@@ -7,8 +7,10 @@ export function Header(props) {
   const mobileMenu = () => {
     if (mobile) {
       setMobile(false);
+      document.body.style.overflow = "auto";
     } else {
       setMobile(true);
+      document.body.style.overflow = "hidden";
     }
   };
 

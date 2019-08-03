@@ -134,8 +134,8 @@ body {
 
 .header {
   overflow: hidden;
-  padding-top: 55px;
-  padding-bottom: 52px;
+  padding-top: 35px;
+  padding-bottom: 32px;
   padding-left: 15.677vw;
   padding-right: 9.948vw;
 }
@@ -1013,8 +1013,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .terms__bg--content {
   overflow: hidden;
   background: #fbfbfb;
-  padding-top: 100px;
-  padding-bottom: 77px;
+  padding-top: 80px;
+  padding-bottom: 57px;
   padding-left: 15.573vw;
   padding-right: 12.865vw;
   position: relative;
@@ -1073,7 +1073,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 @media only screen and (max-width: 700px) {
   .terms__bg--content-left {
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
   }
 }
 
@@ -1116,7 +1116,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .faq__bg--content {
   overflow: hidden;
   background: #fbfbfb;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 77px;
   padding-left: 21.354vw;
   padding-right: 21.042vw;
@@ -1889,7 +1889,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 @media only screen and (max-width: 700px) {
   .about__bg--header {
     background-image: none;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }
 
@@ -1943,7 +1943,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   font-size: 2.5em;
   font-weight: 600;
-  line-height: 88px;
+  line-height: 58px;
   letter-spacing: 1px;
   color: #0d0d21;
 }
@@ -1966,17 +1966,18 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   .about__bg--header-left > p {
     font-size: 0.95em;
-    line-height: 30px;
+  line-height: 30px;
+  max-width: 300px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .about__bg--header-left > span {
-    font-size: 30px;
+    font-size: 2.5em ;
   }
-
   .about__bg--header-left > p {
     font-size: 18px;
+    max-width: 300px;
   }
 }
 
@@ -2041,7 +2042,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   letter-spacing: 1px;
   color: #0d0d21;
   padding-top: 60px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -2055,7 +2056,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-family: var(--compact-thin);
 
   font-size: 0.95em;
-  line-height: 44px;
+  line-height: 30px;
   color: #0d0d21;
 }
 
@@ -2396,8 +2397,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .home__content--safety > div {
   overflow: hidden;
+  padding: 120px 0 80px 0;
 
-  padding: 190px 0 80px 0;
 }
 
 .home__content--safety-left {
@@ -2750,7 +2751,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   text-align: center;
 
   padding-top: 75px;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   position: relative;
   padding-left: 20.365vw;
   padding-right: 20.365vw;
@@ -2912,7 +2913,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 @media only screen and (max-width: 1000px) {
   .home__content--invest-btm {
     overflow: hidden;
-    padding: 650px 0 100px 0;
+    padding: 400px 0 100px 0;
   }
 }
 
@@ -2964,7 +2965,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     top: -50px;
     left: 0;
-    height: 1200px;
+    height: 1000px;
     background: #0d0d21;
   }
 }
@@ -3012,7 +3013,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .home__content--invest-top-right {
     width: 100%;
     float: left;
-    padding: 300px 10px 0 10px;
+    padding: 200px 10px 0 10px;
     text-align: left;
   }
 }
@@ -3094,7 +3095,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   line-height: 19px;
   text-align: center;
   text-transform: uppercase;
-  color: #7e8085;
+  color: #777;
   opacity: 0.5;
 }
 
@@ -3190,11 +3191,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   font-size: 2.8em;
   font-weight: 600;
-  line-height: 88px;
+  line-height: 58px;
   letter-spacing: 1px;
   color: #0d0d21;
 }
-
+@media (max-width: 479px){
+  .home__content--header-phones{
+    display:none;
+  }
+}
 @media only screen and (max-width: 950px) {
   .home__content--header > span {
     font-size: 2.5em;
@@ -3212,7 +3217,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 @media only screen and (max-width: 1050px) {
   .home__content--header > p {
-    max-width: 400px;
+    max-width: 300px;
   }
 }
 
