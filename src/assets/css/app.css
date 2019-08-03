@@ -1843,7 +1843,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 @media only screen and (max-width: 700px) {
   .about__bg--header {
     background-image: none;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }
 
@@ -1896,7 +1896,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-family: var(--tiempos-medium);
   font-size: 2.5em;
   font-weight: 600;
-  line-height: 88px;
+  line-height: 58px;
   letter-spacing: 1px;
   color: #0d0d21;
 }
@@ -1919,16 +1919,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .about__bg--header-left > p {
     font-size: 0.95em;
   line-height: 30px;
+  max-width: 300px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .about__bg--header-left > span {
-    font-size: 30px;
+    font-size: 2.5em ;
   }
-
   .about__bg--header-left > p {
     font-size: 18px;
+    max-width: 300px;
   }
 }
 
@@ -1992,7 +1993,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   letter-spacing: 1px;
   color: #0d0d21;
   padding-top: 60px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -2006,7 +2007,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .about__bg--photos > span {
   font-family: var(--compact-thin);
   font-size: 0.95em;
-  line-height: 44px;
+  line-height: 30px;
   color: #0d0d21;
 }
 
